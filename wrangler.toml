@@ -1,0 +1,11 @@
+name = "robobaba"
+type = "webpack"
+account_id = "d9c4a171c4a0d0a8e6f8204ae9ba0638"
+workers_dev = true
+vars = {TOKEN="707000766:AAFdB-yzWEbgg-07di7JpFIE_N755waDSoE",X='',CTX='',U='',B=""}
+kv_namespaces = [                                                                                                                                                                                            
+         { binding = "M", id = "f0794462b83749ad952efebfec73df9d" }                                                                                                                                          
+]
+[site]
+bucket = "./public"
+entry-point = "."
