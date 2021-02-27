@@ -8,10 +8,10 @@ var columnify = require('columnify')
     }
 
 var { Database } = require('firebase-firestore-lite')
-const D = new Database({ projectId: 'iiiiil' })
-var all = D.ref("l/ALL")
+const D = new Database({ projectId: 'iiilll' })
+var all = D.ref("L/L")
 //var All = D.ref("ALL")
-var list = D.ref("l/LiST")
+// var list = D.ref("l/LiST")
 
 var date = () => new Date()
     .toISOString()
@@ -221,7 +221,7 @@ CTX.ip = ip
 
 if(J.indexOf(re.from)<0) return new Response("ok", { status: 200 })
 
-var ref =  D.ref("l/"+re.from)
+var ref =  D.ref("L/"+re.from)
   X = await ref.get().catch(err => {
     ref.set(CTX)
     return CTX
